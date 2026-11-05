@@ -1,0 +1,3 @@
+# Large raw WRDS downloads stay local; the script produces the tracked final dataset.
+Project1Y.csv
+datasetlink.csv

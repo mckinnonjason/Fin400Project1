@@ -1,0 +1,13 @@
+FIN 400 Project One data audit
+Original Compustat rows: 444,080
+Rows after sample-format/year filters: 309,021
+Rows with valid sales and R&D (valid X): 110,802
+Rows with a valid primary Compustat-CRSP link: 86,968
+Original CRSP monthly-return rows: 3,402,183
+CRSP rows after U.S. equity filter and de-duplication: 2,291,016
+Rows with all 12 next-year monthly returns: 80,279
+Rows excluded from original Compustat download: 363,801
+
+X = rd_intensity = xrd / sale.
+Y = next_year_return = compounded return from the month after datadate
+through the same month in the following calendar year.
